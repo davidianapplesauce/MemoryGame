@@ -1,6 +1,8 @@
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
+    /* background: url(https://www.indiewire.com/wp-content/uploads/2014/12/pee-wees-playhouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -8,4 +10,8 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+  }
+
+  .score{
+    color: #2a38b9;
   }
