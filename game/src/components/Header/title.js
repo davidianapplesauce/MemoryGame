@@ -6,7 +6,7 @@ function Header(props) {
     <div className="header">
       <div className="title">{props.children}</div>
       <div className="score">
-      <h3>You Wanna Forget You Ever Saw These, So Be Careful Get A Perfect Score!</h3>
+      <h3>You'll Wanna Forget You Ever Saw These, So Try To Get A Perfect Score!</h3>
         Score: {props.score} <br></br> Highscore: {props.highscore}
       </div>
     </div>

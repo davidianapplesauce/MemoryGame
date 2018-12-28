@@ -21,8 +21,12 @@ class App extends Component {
     this.state.images.forEach(image => {
       image.count = 0;
     });
+
+    // const Audio = "./Laugh.mp3";
+    // this.audio = Audio();
     
     this.setState({score: 0});
+    // this.audio()
     return true;
   }
 
